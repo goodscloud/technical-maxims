@@ -3,13 +3,11 @@ Technical Maxims
 
 This repository contains the technical & engineering maxims for the programming team at [GoodsCloud](http://goodscloud.net/).
 
-These are not rules, nor are they guidelines. Rather, they are called "maxims" in the sense of [the Dreyfus model of skill acquisition](http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition).
+These are not rules, nor are they guidelines. Rather, they are called "maxims", after the maxims followed by people in the fourth and fifth level of [the Dreyfus model of skill acquisition](http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition).
 
 We have published it so that other organizations can benefit from our experience, and so that people can see what it's like to work here.
 
 Pull requests are welcome.
-
-# Maxims
 
 ## Coding
 

@@ -1,13 +1,15 @@
-technical-guidelines
-====================
+Technical Maxims
+================
 
-This repository contains the technical & engineering guidelines for the programming team at [GoodsCloud](http://goodscloud.net/).
+This repository contains the technical & engineering maxims for the programming team at [GoodsCloud](http://goodscloud.net/).
+
+These are not rules, nor are they guidelines. Rather, they are called "maxims" in the sense of [the Dreyfus model of skill acquisition](http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition).
 
 We have published it so that other organizations can benefit from our experience, and so that people can see what it's like to work here.
 
 Pull requests are welcome.
 
-# Guidelines
+# Maxims
 
 ## Coding
 
@@ -33,8 +35,8 @@ Pull requests are welcome.
 * Use double quotes `"` for human-readable, natural language text.
 * Use single quotes `'` for machine-readable, string keys and unique identifiers.
 * Trailing whitespace causes noise in diffs, both when it's added and when it's removed. Make sure your editor strips it out, or install a pre-commit hook to strip it.
-* Follow coding guidelines
-  * Python code should follow [PEP 8](http://www.python.org/dev/peps/pep-0008/) coding guidelines.
+* Follow coding style for your language:
+  * Python code should follow [PEP 8](http://www.python.org/dev/peps/pep-0008/).
   * CoffeeScript code should follow [this guide](https://github.com/polarmobile/coffeescript-style-guide).
   * Exception: for both languages, occasional long lines, up to about 160 characters, are ok. Eighty character TTYs are a thing of the past.
 

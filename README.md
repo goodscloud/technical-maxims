@@ -80,5 +80,6 @@ Pull requests are welcome.
 
 ## Planning
 
-* Track technical debt with tickets.
 * If you are having trouble estimating something, split it up into smaller components until you aren't having trouble estimating anymore.
+* If you are not sure whether something is possible, try to implement a proof-of-concept of the most difficult/problematic part.
+* Track technical debt with tickets.

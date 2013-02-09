@@ -51,6 +51,7 @@ Pull requests are welcome.
 * Columns that come from an externally defined code specification are named with `_code`: `language_code`, `country_code`, `region_code`. Exception: the externally defined list of timezones do not have codes, thus they are named `timezone_name`.
 * Boolean columns should be prefixed with `is_` if it's not obvious from their name that they are booleans. Example: `enabled` is fine, but `is_warehouse` is better than just `warehouse`.
 * Only allow `NULL`s in columns when it makes sense for that column type. For example, you might want to `NULL` an `external_identifier` when there is no corresponding item in any external system. But you shouldn't allow `NULL`s in a `price` column because there's no difference between a price of `0` and a `NULL` price.
+* Don't store passwords in cleartext. Use [bcrypt](http://codahale.com/how-to-safely-store-a-password/).
 
 ## Dependencies
 

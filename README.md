@@ -21,6 +21,7 @@ Pull requests are welcome.
  * Don't use language built-ins as identifiers. This includes `id`, `type`, `filter`, and all other [Python built-ins](http://docs.python.org/2/library/functions.html).
  * Strive for consistency in naming, use the same variable names for the same kinds of objects across different functions/modules.
 * Comment things that are confusing or weird. Don't comment obvious things.
+* Version control is for remembering old or unused code. Comments are *not* for remembering old or unused code. Be ruthless about deleting old or unused code.
 * Don't copy and paste code. Ever. No, not even just this one time. Write a little function, use a template, or [fragments](https://github.com/glyphobet/fragments).
 * Subclass, inherit, wrap, @decorate, encapsulate. But do not patch the monkey. And do not punch the duck.
 * Think of the novice developer who will inherit your code in four years, after you, your documentation, and everyone you worked with are long gone. Code with that poor sucker in mind.

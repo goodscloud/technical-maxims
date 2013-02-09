@@ -36,6 +36,7 @@ Pull requests are welcome.
 * Trailing whitespace causes noise in diffs, both when it's added and when it's removed. Make sure your editor strips it out, or install a pre-commit hook to strip it.
 * Follow coding style for your language:
   * Python code should follow [PEP 8](http://www.python.org/dev/peps/pep-0008/).
+  * JavaScript code should follow [Crockford's conventions](http://javascript.crockford.com/code.html).
   * CoffeeScript code should follow [this guide](https://github.com/polarmobile/coffeescript-style-guide).
   * Exception: for both languages, occasional long lines, up to about 160 characters, are ok. Eighty character TTYs are a thing of the past.
 

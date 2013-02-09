@@ -40,7 +40,6 @@ Pull requests are welcome.
   * CoffeeScript code should follow [this guide](https://github.com/polarmobile/coffeescript-style-guide).
   * Exception: for both languages, occasional long lines, up to about 160 characters, are ok. Eighty character TTYs are a thing of the past.
 
-
 ## Database design
 
 * Tables that need to be referred to by foreign keys should have a primary key, named `id`. Foreign keys pointing at composite primary keys are too complex.

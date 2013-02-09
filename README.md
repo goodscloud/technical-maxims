@@ -75,6 +75,7 @@ Pull requests are welcome.
 * Finished code is code with complete test coverage.
 * Commit early, commit often.
 * Use [Tower](http://www.git-tower.com/) or `git commit -p` to commit small, self-contained changes separately. [If your commit message has bullet points, your commit is too big.](http://twitter.com/glyphobet/status/290798617663533056)
+* Once passwords, [private keys](https://github.com/search?q=-----BEGIN+RSA+PRIVATE+KEY-----&ref=searchresults&type=Code), credit card numbers, authentication tokens, or other things that shouldn't be committed are in history, they are there forever. Don't commit them.
 
 ## Debugging
 

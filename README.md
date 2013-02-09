@@ -47,6 +47,9 @@ Pull requests are welcome.
 * All tables should have a column marked `unique`, or a multi-column `UniqueConstraint` describing the real-world value(s) that make this data unique. Do not succumb to [Primary Keyvil](http://it.toolbox.com/blogs/database-soup/primary-keyvil-part-i-7327).
 * Foreign keys end with `_id`.
 * `label` columns are machine-readable unique identifiers, quite often (but not always) they are *not* `NULL`-able.
+* Avoid overly vague terms in column and table names. They can be redundant and/or confusing. Examples include, but are not limited to: `value`, `length`, `status`, `store`, &c.
+* Don't use `table` or `column` in table or column names. Nobody wants to write `select stuff_column from thing_table;`.
+* Do not include the table name, or part of the table name, in column identifiers. `select stuff from thing;` is better than `select thing_stuff from thing;`.
 * Values that function as unique identifiers when communicating with external systems are named `external_identifier`. Exception: standard industry terms like `sku` ("stock-keeping unit") can be used, if they exist.
 * Columns that come from an externally defined code specification are named with `_code`: `language_code`, `country_code`, `region_code`. Exception: the externally defined list of timezones do not have codes, thus they are named `timezone_name`.
 * Boolean columns should be prefixed with `is_` if it's not obvious from their name that they are booleans. Example: `enabled` is fine, but `is_warehouse` is better than just `warehouse`.

@@ -12,7 +12,7 @@ Pull requests are welcome.
 ## Coding
 
 * Naming things is hard:
- * Don't be afraid of long, descriptive variable names. That's why your editor has tab completion.
+ * Don't be afraid of long, descriptive variable names. That's why your editor has tab completion. Optimize for comprehension, not keystrokes.
  * The length of a variable name should be inversely proportional to its scope.
  * Avoid acronyms and abbreviations, unless they are unambiguous and widely understood, like `HTTP` or `sync`.
  * Avoid plurals. Better to use `item_list` than `items`, to distinguish it from `item`.

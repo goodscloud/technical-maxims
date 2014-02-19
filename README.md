@@ -69,8 +69,9 @@ Pull requests are welcome.
 
 * Always make sure all the tests pass before committing.
 * Always commit and push your code before you leave for the day. If you're not done, push it to a branch.
-* If you break the build for other developers, you have to stop everything you're doing and fix it ASAP. Yes, including eating lunch.
+* If you break the tests on master, it is now your responsibility to skip lunch, postpone phone calls, step out of meetings, stay late, and do nothing at all but fix the tests until they are passing again.
   * Alternatively, roll back your changes on master and fix the tests in a branch.
+  * Or ask other developers for help.
 * Mock external resources in the tests. The tests should be able to pass when you are coding at thirty-thousand feet over the Atlantic with no internet connection.
 
 ## Committing
@@ -79,6 +80,12 @@ Pull requests are welcome.
 * Commit early, commit often.
 * Use [Tower](http://www.git-tower.com/) or `git commit -p` to commit small, self-contained changes separately. [If your commit message has bullet points, your commit is too big.](http://twitter.com/glyphobet/status/290798617663533056)
 * Once passwords, [private keys](https://github.com/search?q=-----BEGIN+RSA+PRIVATE+KEY-----&ref=searchresults&type=Code), credit card numbers, authentication tokens, or other things that shouldn't be committed are in history, they are there forever. Don't commit them.
+* Direct commits to master are allowed *only* in the following cases:
+    * they fix translation issues or test-i19 test failures
+    * they are changes to docstrings or comments only
+    * they realign alembic migrations to fix the test-alembic test
+* Cosmetic and code formatting commits should be done in a branch, but you may, at your discretion, wait for the tests to pass, and then merge that branch into master yourself. 
+* If you commit directly to master and then the tests break, it is now your responsibility to skip lunch, postpone phone calls, step out of meetings, stay late, and do nothing at all but fix the tests until they are passing again.
 
 ## Debugging
 

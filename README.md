@@ -29,17 +29,16 @@ Pull requests are welcome.
 * Separate your ego from your code. Everyone writes bugs, that's why we have tests.
   * Separate other people from their code. Don't blame or point fingers when someone else writes a bug. Help fix it, write a test, and move on.
 * Avoid feelings of ownership, control, or dominion over certain parts of the code. Anybody can fix bugs, modify, or rewrite any part of the code, as long as you are making it better. Better is defined by the whole team.
-* Avoid ambiguity. For CoffeeScript, always use:
-  * parentheses around function calls: `func(arg)` instead of `func arg`.
-  * curly brackets around literal objects: `{key: 'val', key: 'val'}` instead of `key: 'val', key: 'val'`.
-* Use double quotes `"` for human-readable, natural language text.
-* Use single quotes `'` for machine-readable, string keys and unique identifiers.
+* Avoid ambiguity.
+* Prefer double quotes `"` for human-readable, natural language text.
+* Prefer single quotes `'` for machine-readable, string keys and unique identifiers.
 * Trailing whitespace causes noise in diffs, both when it's added and when it's removed. Make sure your editor strips it out, or install a pre-commit hook to strip it.
 * Follow coding style for your language:
-  * Python code should follow [PEP 8](http://www.python.org/dev/peps/pep-0008/).
+  * Python code should follow [PEP 8](http://www.python.org/dev/peps/pep-0008/), but:
+    * We allow lines up to 100 characters, as allowed in the latest PEP-8 version
+    * We prefer [a slightly different line-breaking style](https://gist.github.com/glyphobet/6120800)
   * JavaScript code should follow [Crockford's conventions](http://javascript.crockford.com/code.html).
   * HTML code should follow [this guide](http://github.com/goodscloud/technical-maxims/wiki/HTML-Styleguide).
-  * CoffeeScript code should follow [this guide](https://github.com/polarmobile/coffeescript-style-guide).
 
 ## Database design
 
